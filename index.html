@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitten Clicker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/items.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Kitten Clicker</h1>
+
+    <section class="resource" aria-live="polite">
+      <p><span id="cats">0</span> cats</p>
+      <p class="rate"><span id="rate">0</span> per second</p>
+    </section>
+
+    <button id="gather-button" type="button">adopt a cat</button>
+
+    <section class="shop" aria-labelledby="shop-heading">
+      <h2 id="shop-heading">Shop</h2>
+      <div id="shop-items"></div>
+    </section>
+  </main>
+</body>
+</html>
